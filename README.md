@@ -4,6 +4,7 @@
 
 <h3> 👨🏻•💻 À propos de moi </h3>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=VoidSplit)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 - 🤔 &nbsp; Explorer de nouvelles technologies et développer des solutions logicielles.
