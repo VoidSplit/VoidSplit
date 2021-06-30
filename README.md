@@ -6,7 +6,7 @@
 
 <br/>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=VoidSplit&no-frame=true&no-bg=true&theme=onestar)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=VoidSplit&no-frame=true&column=3&margin-w=15&margin-h=15&no-bg=true&theme=onestar)](https://github.com/ryo-ma/github-profile-trophy)
 
 <br/>
 
