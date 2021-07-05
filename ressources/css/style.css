@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular.ttf") format("ttf"),
+    url("../fonts/Gilroy-Light.ttf") format("ttf");
+}
+:root {
+    --gold: #dbb42c;
+    --black: #201e1f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Gilroy, sans-serif;
+    color: rgb(25, 26, 23);
+}
+::selection {
+    
+  color: white;
+  background-color: black;
+}
+
+html,body {
+    scroll-behavior: smooth;
+}
+.small {
+    font-size: .8em;
+}
+.big {
+    font-size: 2.8em;
+}
+span.gray {
+    color: rgba(109, 109, 109, 0.5);
+    transition: color 400ms ease;
+    cursor: pointer;
+}
+span.gray:hover {
+    color: rgba(109, 109, 109, 0.7);
+}
+.scroll {
+    padding-top: 15px;
+}
+.uc {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.gold {
+    color: var(--gold);
+}
+section {
+    height: 100vh;
+    display: flex;
+}
+.informations-part {
+    height: 100%;
+    width: 50%;
+}
+.photo {
+    height: 100%;
+    width: 50%;
+}
+.line {
+    background-color: rgb(212, 212, 212);
+    height: 1px;
+    width: 100%;
+    margin: 50px 0;
+}
+nav {
+    position: relative;
+    display: flex;
+    width: 450px;
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto 0 auto;
+}
+nav::before {
+    position: relative;
+    content: '';
+    height: 1px;
+    width: 20px;
+    background-color: #dddddd;
+}
+.navlink {
+    margin-left: 16px;
+    padding: 0px;
+    transition: color 400ms ease;
+    color: rgba(25, 26, 23, 0.7);
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    -webkit-transition: color 400ms ease;
+    -moz-transition: color 400ms ease;
+    -ms-transition: color 400ms ease;
+    -o-transition: color 400ms ease;
+}
+.navlink.active {
+    color: rgba(25, 26, 23, 0.35);
+}
+.navlink:not(.active):hover {
+    color: rgb(25, 26, 23);
+}
+.photographie {
+    background-image: url(../images/portrait.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 80vh;
+    margin-top: 20vh;
+}
+.information-box {
+    width: 400px;
+    margin: 350px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.information-box span.title {
+    margin-bottom: 5px;
+}
+.information-box span.underline {
+    text-decoration: underline;
+}
+.information-box h1 {
+    margin: 20px 0;
+}
+.paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 350px;
+}
+.project .image-box {
+    height: 350px;
+    width: 100%;
+}
+.project h1 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.see {
+    margin-top: 25px;
+}
+.image-box {
+    background-image: url(../images/projet.jpg);
+    background-position: center;
+    background-size: cover;
+}
