@@ -10,9 +10,9 @@
 
 <br/>
 
-- 🤔 &nbsp; Explorer de nouvelles technologies et développer des solutions logicielles.
+- 🤔 &nbsp; Exploration de nouvelles technologies et développement de solutions logicielles.
 
-- 🎓 &nbsp; Approfondissement des connaissances sur les langages déjà appris et apprendre d'autres langages.
+- 🎓 &nbsp; Approfondissement des connaissances sur les langages déjà appris et apprentissage d'autres langages.
 
 - 🌱 &nbsp; Apprentissage de la technologie cloud et de la conception de systèmes.
 
