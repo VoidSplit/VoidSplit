@@ -75,7 +75,7 @@
 <!--<a href="https://shivammalpani.netlify.app/"><img alt="Website" src="https://img.shields.io/badge/shivammalpani.netlify.app-black?style=flat-square&logo=google-chrome"></a>-->
 
 <a href="mailto:voidsplit.pro@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-voidsplit.pro@gmail.com-blue?style=flat-square&logo=gmail"></a>
-<a hrf="https://discord.gg/DYXYubDQf2"><img alt="Email" src="https://img.shields.io/badge/Discord-Les%20Devs%20du%20Dimanche-blue"></a>
+<a href="https://discord.gg/DYXYubDQf2"><img alt="Email" src="https://img.shields.io/badge/Discord-Les%20Devs%20du%20Dimanche-blue"></a>
 </p>
 
 
