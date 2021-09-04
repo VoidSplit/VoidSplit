@@ -24,7 +24,7 @@
 
 - 💻 &nbsp; Python | MySQL
 
-- 🌐 &nbsp; HTML | CSS | JavaScript | Bootstrap | ReactJS | VueJS
+- 🌐 &nbsp; HTML | CSS | JavaScript | Bootstrap | VueJS
 
 - 🛢 &nbsp; MySQL | MongoDB
 <!--
