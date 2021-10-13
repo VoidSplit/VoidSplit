@@ -29,7 +29,7 @@ footer {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 1rem 0 3rem 0;
+            margin: 1rem 0 1rem 0;
             li {
                 margin: 0 10px;
                 a {
@@ -46,7 +46,28 @@ footer {
             }
         }
     }
-    .footer-bottom{
+    .coffee-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        a {
+            box-shadow: 0 0 15px rgb(19, 19, 19);
+            background: linear-gradient(129deg, #e85d04 0%, #d00000 100%);
+            color: #fff;
+            font-weight: 500;
+            display: flex;
+            margin: 0 auto 1rem;
+            padding: 5px 25px;
+            border-radius: 15px;
+            line-height: 28px;
+            font-size: 15px;
+            .icon {
+                margin: 0 5px;
+            }
+        }
+    }
+    .footer-bottom {
         background: #000;
         width: 100%;
         padding: 20px 0;
