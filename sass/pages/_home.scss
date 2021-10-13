@@ -1,0 +1,157 @@
+section#landing-page {
+    background: linear-gradient(129deg, #e85d04 0%, #d00000 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    .blob {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        fill: #FAA307;
+        width: 50vw;
+        animation: moveLandingBubble 30s ease-in-out infinite;
+        transform-origin: 50% 50%;
+        z-index: 2;
+    }
+    h1 {
+        color: white;
+        font-size: 20vmin;
+        line-height: 1;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        padding-left: 40px;
+    }
+    span {
+        position: absolute;
+        z-index: 3;
+        padding-left: 25px;
+    }
+    .arrow {
+        font-size: 3rem;
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+        color: #FFBA08;
+        z-index: 3;
+        padding: 25px;
+    }
+    .arrow::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        background: #d00000;
+        opacity: 0;
+        border-radius: 100%;
+        transition: opacity .2s, transform .2s;
+        transform: scale(.8);
+    }
+    .arrow:hover::after {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+section#informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box {
+        .link {
+            color: #fff;
+            text-decoration: underline;
+        }
+        position: relative;
+        background-color: #000000;
+        height: 80vh;
+        width: 80vw;
+        cursor: none;
+        overflow: hidden;
+        color: #fff;
+        padding-top: 150px;
+        font-family: 'Poppins', sans-serif;
+        .inner {
+            padding: 0 150px;
+            position: relative;
+            z-index: 5;
+        }
+        span {
+            margin-bottom: 5px;
+            font-size: .8em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        h1 {
+            margin: 20px 0;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-size: 2.8em;
+        }
+        .space {
+            height: 15px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 500;
+        }
+        .background-addon {
+            position: absolute;
+            content: '';
+            width: 200px;
+            height: 200px;
+            transform: scale(5);
+            background: linear-gradient(129deg, #e85d04 0%, #d00000 100%);
+            z-index: 0;
+            top: 50%;
+            right: 0;
+            animation: moveInformationBigBubble 100s ease-in-out infinite;
+            transform-origin: 50% 50%;
+            clip-path: path("M168.477989,12.8772838 C195.531935,41.6197637 200.481172,150.575034 177.63799,174.665833 C139.547341,214.836864 58.1415734,203.18878 24.7427758,167.953683 C-7.38084372,134.063875 -7.95449956,85.0861283 21.4459247,38.6567367 C44.4976571,2.25325144 144.20531,-12.9103404 168.477989,12.8772838 Z");
+        }
+        .bubble {
+            position: absolute;
+            content: '';
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(129deg, #e85d04 0%, #d00000 100%);
+            z-index: 0;
+            top: 10vh;
+            left: 5%;
+            animation: moveInformationLittleBubble 60s ease-in-out infinite;
+            transform-origin: 50% 50%;
+            clip-path: path("M168.477989,12.8772838 C195.531935,41.6197637 200.481172,150.575034 177.63799,174.665833 C139.547341,214.836864 58.1415734,203.18878 24.7427758,167.953683 C-7.38084372,134.063875 -7.95449956,85.0861283 21.4459247,38.6567367 C44.4976571,2.25325144 144.20531,-12.9103404 168.477989,12.8772838 Z");
+        }
+        .projects {
+            position: absolute;
+            width: 100%;
+            bottom: 25px;
+            margin: 0 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .line {
+                width: 50%;
+                border-top: 1px dotted #fff;
+                margin: 25px;
+            }
+            div:not(.line) {
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                    margin: 0 25px;
+                }
+            }
+        }
+    }
+}
