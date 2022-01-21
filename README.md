@@ -10,9 +10,9 @@
 
 <br/>
 
-- 🤔 &nbsp; Exploration de nouvelles technologies et développement de solutions logicielles.
+- 🤔 &nbsp; Explorer de nouvelles technologies et développer des solutions logicielles.
 
-- 🎓 &nbsp; Approfondissement des connaissances sur les langages déjà appris et apprentissage d'autres langages.
+- 🎓 &nbsp; Approfondissement des connaissances sur les langages déjà appris et apprendre d'autres langages.
 
 - 🌱 &nbsp; Apprentissage de la technologie cloud et de la conception de systèmes.
 
@@ -24,7 +24,7 @@
 
 - 💻 &nbsp; Python | MySQL
 
-- 🌐 &nbsp; HTML | CSS | JavaScript | Bootstrap | VueJS
+- 🌐 &nbsp; HTML | CSS | JavaScript | Bootstrap | ReactJS | VueJS
 
 - 🛢 &nbsp; MySQL | MongoDB
 <!--
@@ -74,8 +74,8 @@
 
 <!--<a href="https://shivammalpani.netlify.app/"><img alt="Website" src="https://img.shields.io/badge/shivammalpani.netlify.app-black?style=flat-square&logo=google-chrome"></a>-->
 
-<a href="mailto:voidsplit.pro@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-voidsplit.pro@gmail.com-blue?style=for-the-badge&logo=gmail"></a>
-<a href="https://discord.gg/DYXYubDQf2"><img alt="Email" src="https://img.shields.io/discord/876146557265789019?color=9cf&label=Mon%20Discord%20&logo=Discord&logoColor=9cf&style=for-the-badge"></a>
+<a href="mailto:voidsplit.pro@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-voidsplit.pro@gmail.com-blue?style=flat-square&logo=gmail"></a>
+
 </p>
 
 
