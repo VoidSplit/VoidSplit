@@ -47,11 +47,15 @@ $(document).ready(function(){
 let ageSpan = document.getElementById('age')
 let dateNaissance = new Date("12/27/2003")
 
-console.log(dateNaissance)
-
 let ma_diff = Date.now() - dateNaissance.getTime()
 let age_dt = new Date(ma_diff)
 let an = age_dt.getUTCFullYear()
 let age = Math.abs(an - 1970)
 
 ageSpan.innerText = age.toString()
+
+let copyrightDate = document.getElementById('copyrightDate')
+var aujd = new Date()
+var annee = aujd.getFullYear()
+
+copyrightDate.innerText = annee
